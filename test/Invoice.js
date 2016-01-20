@@ -44,6 +44,13 @@ describe('Invoice', function() {
       });
     });
   });  
+  describe("getPDF()", function() {
+    it("should get an invoice by pdf", function(done) {
+      invoice.getPDF(function(err, invoice) {
+        done(err);
+      });
+    });
+  });  
   
   describe("list()", function() {
     it("should list an array of invoices", function(done) {
