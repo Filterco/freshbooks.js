@@ -13,7 +13,7 @@
     "homepage": "https://github.com/flowxo/freshbooks.js",
     "dependencies": {
         "libxmljs": "^0.14.3",
-        "path": "*",
+        "path": "*"
     },
     "main": "index",
     "engines": {
